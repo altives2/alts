@@ -1,5 +1,6 @@
 <html>
 <head>
+<script src="/scripts.js"></script>
 <link rel="stylesheet" href="/style.css">
 <title>Alternatives</title>
 </head>
@@ -32,53 +33,13 @@ Dall-E - text to image <a href="https://www.bing.com/images/create">at Bing</a><
 Bing <a href="https://bing.com">at Bing</a>
 <br><a href="search-engines.html">more..</a>
 
+<h3>Music instruments</h3>
+A guitar <img class="miniimg" src="/images/guitar-annie-spratt-unsplash.jpg" />
+A piano <img class="miniimg" src="/images/piano-felicia-buitenwerf.jpg" />
 
 
-<style>
 
-body {
+<div class="attr"><a href="/attr.html">Attributions</a></div>
 
-	font-family:Arial;
-}
-#menu {
- border:solid black 1px;
- display: inline-block;
- margin-left:20px;
- padding-left:10px;
- padding-top:0px;
- padding-right:10px;
-}
-
-
-.more{
-	display:inline-block;
-	color:blue;
-	cursor:pointer;
-
-}
-
-.morelinks{
-	display:none;
-}
-
-</style>
-<script>
-function toggleMore(e){
-let parent = e.parentNode;
-
-let moreLinks = parent.getElementsByTagName("span")[0];
-if(moreLinks.style.display=="none" || moreLinks.style.display==""){
-	moreLinks.style.display="inline";
-	//console.log(e)
-	e.innerHTML="hide >>";
-}else{
-	moreLinks.style.display="none";
-	e.innerHTML="more >>";
-
-}
-
-}
-
-</script>
 </body>
 </html>
