@@ -1,15 +1,15 @@
 <html>
 <head>
 <link rel="stylesheet" href="/style.css">
-<script src="/scripts"></script>
+<script src="/scripts.js"></script>
 <title>Alternatives</title>
 </head>
 <body>
 Hello!<br><br>
 <div id="menu">
-<a href="https://github.com/altives2/alts" style="display:none;padding:0px;float:right;"><img src="/github-mark.png" width=30px/></a>
+
 <br>
-Request any alternatives <a href="https://github.com/altives2/alts/issues">here</a>.
+Request any alternatives <a href="https://github.com/altives2/alts/labels/requests">here</a> <a href="https://github.com/altives2/alts/labels/requests" style=";padding:0px;"><img  src="/images/github-mark.png" style="width:1.5em;margin-top:-3px;vertical-align:middle" /></a>
 <br>
 <br>
 <br>
@@ -18,29 +18,12 @@ Request any alternatives <a href="https://github.com/altives2/alts/issues">here<
 
 <h3></h3>
 <br>
-
+<div class="more"> <a onclick="toggleMore(this);return false">more >></a> <span class="morelinks"> <a href=""> at </a></span></div><br>
 <div class="attr"><a href="/attr.html">Attributions</a></div>
 <style>
 
 </style>
 <script>
-function toggleMore(e){
-let parent = e.parentNode;
-
-let moreLinks = parent.getElementsByTagName("span")[0];
-if(moreLinks.style.display=="none" || moreLinks.style.display==""){
-	moreLinks.style.display="inline";
-	//console.log(e)
-	e.innerHTML="hide >>";
-}else{
-	moreLinks.style.display="none";
-	e.innerHTML="more >>";
-
-}
-
-
-}
-
 </script>
 </body>
 </html>
