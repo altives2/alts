@@ -48,3 +48,19 @@ body {
 .miniimg {
 	height:1.5em;
 }
+
+
+.outer{
+	display:flex;
+}
+
+.left{
+width:25%;
+}
+.mid {
+  width:60%
+}
+.right{
+	width:25%;
+
+}
