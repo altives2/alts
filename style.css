@@ -39,9 +39,8 @@ body {
 }
 
 .attr{
-	position: absolute;
-	bottom: 0;
-        left:48%;
+	position: relative;
+       left:48%;
 
 
 }
@@ -52,13 +51,17 @@ body {
 
 .outer{
 	display:flex;
+	height:80%;
+	margin-bottom:30px;
+  height: fit-content;
 }
 
 .left{
 width:25%;
 }
 .mid {
-  width:60%
+  	width:60%;
+	height:100%;
 }
 .right{
 	width:25%;
